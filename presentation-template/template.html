@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Название</title>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="node_modules/shower-ribbon/styles/screen-16x10.css">
+  <link rel="stylesheet" href="css/prism.css">
+  <link rel="stylesheet" href="css/prism-fix.css">
+  <link rel="stylesheet" href="css/netology.css">
+  <link rel="stylesheet" href="css/fake-browser.css">
+  <link rel="stylesheet" href="css/added-styles.css">
+
+  <style>
+    .small-pre {
+      font-size: 70%;
+    }
+
+    .demo {
+      font-size: 50%;
+      float: right;
+    }
+
+    .accent {
+      color: #48bc36;
+    }
+  </style>
+</head>
+<body class="shower list">
+  <header class="caption">
+    <h1>Название</h1>
+    <p>Преподаватель, Нетология</p>
+  </header>
+
+  <!-- Передняя обложка -->
+  <section class="slide" id="cover">
+    <h2>Название</h2>
+    <p>
+      <img src="pic/uchilka_22398469_orig_.jpg" alt="" class="avatar">
+      Преподаватель<span class="position">Компания</span>
+    </p>
+  </section>
+
+  <!-- Слайд с преподавателем -->
+  <section class="slide author" id="author">
+    <img src="pic/uchilka_22398469_orig_.jpg" alt="">
+    <h1>Преподаватель</h1>
+    <p class="position">Должность</p>
+    <ul class="contacts">
+      <li><a href="mailto:"><i class="fa fa-envelope-o" aria-hidden="true"></i>example@domain.com</a></li>
+    </ul>
+  </section>
+
+  <!-- План ссылками с якорями -->
+  <section class="slide" id="roadmap">
+    <h2>План занятия</h2>
+      <ol>
+        <li><a href="#strings">...</a></li>
+        <li><a href="#lists">...</a></li>
+        <li><a href="#massives">...</a></li>
+        <li><a href="#null">...</a></li>
+        <li><a href="#resourses">...</a></li>
+      </ol>
+  </section>
+
+  <!-- Название раздела -->
+  <section class="slide chapter" id="strings">
+      <h2>Здесь название раздела</h2>
+  </section>
+
+  <!-- Красивая картинка для раздела -->
+  <section class="slide schmutz-titel">
+    <img src="pic/it-юмор-программирование-4061596.jpeg" class="schmutz-picture" alt="">
+  </section>
+
+  <!-- Слайд с кодом -->
+  <section class="slide">
+      <h2></h2>
+      <pre><code class="language- line-numbers">
+        some code
+      </code></pre>
+  </section>
+  
+  <!-- Простой слайд -->
+  <section class="slide">
+      <h2></h2>
+      <p></p>
+  </section>
+
+  <section class="slide">
+      <h2></h2>
+  </section>
+
+  <!-- Задняя обложка -->
+  <section class="slide last">
+    <p class="thanx">Задавайте вопросы и напишите отзыв о лекции!</p>
+    <address>Преподаватель</address>
+    <ul class="contacts">
+      <li><a href="mailto:"><i class="fa fa-envelope-o" aria-hidden="true"></i>example@domain.com</a></li>
+    </ul>
+  </section>
+
+<!-- Прогресс-бар и скрипты -->
+<div class="progress"></div>
+  <script src="node_modules/shower-core/shower.min.js"></script>
+  <script src="js/prism.js?v=2"></script>
+  <script src="https://use.fontawesome.com/30b5a52164.js"></script>
+</body>
+</html>
