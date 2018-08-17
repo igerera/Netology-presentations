@@ -27,6 +27,13 @@ h2.slide-caption{
 	font-size: 3.5em;
 }
 
+/*Подзголовок*/
+.subtitle {
+	text-transform: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
 /*Уменьшенный шрифт кода на слайдах*/
 /*section.font-token-minimize code.language-html  {
 	font-size: 0.8em;
@@ -36,6 +43,7 @@ section.font-token-minimize pre.line-numbers  {
 	font-size: 0.54em;
 }
 */
+
 /*Дополнительный пробел*/
 .gap-50 {
 	width: 5px;
@@ -56,11 +64,11 @@ section.font-token-minimize pre.line-numbers  {
 
 /*Добавил, чтобы убрать пагинацию со слайда с автором*/
 section#author.slide.author::after {
-  display: none;
+ display: none;
 }
 
 span, pre.line-numbers {
-  font-size: 14.5px;
+ font-size: 14.5px;
 }
 
 /*Шмуц для раздела*/
@@ -74,6 +82,40 @@ span, pre.line-numbers {
  height: 640px;
 }
 
+/*Окрашивает строку в коде*/
 .long-string {
 	color: #690;
+}
+
+/*Уменьшение шрифта*/
+.minimize {
+	font-size: 0.8em;
+}
+
+/*Блок ответа с боковой планкой*/
+.answer {
+	display: block;
+	padding-left: 25px;
+	border-left: 7px solid;
+	border-left-color: rgba(27, 31, 35, 0.05);
+	color: #979a9e;
+}
+
+/*Выделение текста, чтобы обратить внимание*/
+.attention {
+	color: #F00;
+	font-size: 1em;
+}
+
+/*Выделяет рамкой фрагмент текста*/
+.frame {
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+.chapter-small {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
 }
