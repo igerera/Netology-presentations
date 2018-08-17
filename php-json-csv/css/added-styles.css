@@ -154,3 +154,7 @@ span, pre.line-numbers {
 .telegram-icon.upper {
 	content: url(../i/telegram-upper.svg);
 }
+
+.tabbed {
+	padding-left: 77px;
+}

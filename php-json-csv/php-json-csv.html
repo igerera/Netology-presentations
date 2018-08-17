@@ -415,7 +415,7 @@
 
   <section class="slide code-minimize">
     <h2></h2>
-    <p><i>Пример использования:</i></p>
+    <p><i>Пример использования (на двух слайдах):</i></p>
     <pre><code class="language-php line-numbers">
       // Верная json-строка
       $json[] = '{"Organization": "PHP Documentation Team"}';
@@ -442,7 +442,7 @@
   <section class="slide">
     <h2></h2>
     <pre><code class="language-php line-numbers">
-              case JSON_ERROR_CTRL_CHAR:
+              <span class="tabbed">case JSON_ERROR_CTRL_CHAR:</span>
                   echo ' — Некорректный управляющий символ';
               break;
               case JSON_ERROR_SYNTAX:
@@ -461,12 +461,12 @@
     </code></pre>
   </section>
 
-  <section class="slide font-token-minimize">
+  <section class="slide">
     <h2></h2>
     <p><i>Результат выполнения:</i></p>
-    <pre><code class="language-php minimize-more">
+    <pre><code class="language-php">
       Декодируем: {"Organization": "PHP Documentation Team"} — Ошибок нет
-      Декодируем: {'Organization': 'PHP Documentation Team'} — Синтаксическая ошибка, некорректный JSON
+      Декодируем: {'Organization': 'PHP Documentation Team'} —<br> Синтаксическая ошибка, некорректный JSON
     </code></pre>
     <p>Для чтения и записи json в файлы используются стандартные функции, рассмотренные выше.</p>
   </section>
