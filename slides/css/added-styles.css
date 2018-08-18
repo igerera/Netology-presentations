@@ -1,0 +1,165 @@
+/*Добавленные стили для презентации, можно дополнять и менять. Тема ribbon*/
+
+/*Светло-серая подсветка имён элементов*/
+/*Основной текст*/
+.slide mark.highliter {
+	background: rgba(27,31,35,0.05);
+	border-radius: 3px;
+	color: #666666;
+}
+
+/*Уменьшенный шрифт кода на слайдах*/
+section.font-token-minimize code.language-  {
+	font-size: 0.5em;
+}
+
+section.font-token-minimize pre.line-numbers  {
+	font-size: 0.52em;
+}
+
+/*Прочее*/
+
+.slide p {
+	margin-bottom: 0.5em;
+	line-height: 1.3em;
+}
+
+/*Line-height в абзацах, чтобы подсвеченные элементы не соприкасались нижними и верхними границами*/
+p.more-line-height {
+	line-height: 1.6em;
+}
+
+/*Line-height в списках, чтобы подсвеченные элементы не соприкасались нижними и верхними границами*/
+.slide ul li,
+.slide ol li  {
+	line-height: 1.2em;
+}
+
+/*Заголовки разделов*/
+h2.slide-caption{
+	padding-top: 1.5em;
+	font-size: 3.5em;
+}
+
+/*Подзголовок*/
+.subtitle {
+	text-transform: none;
+	font-weight: bold;
+	font-size: 1.2em;
+}
+
+/*Дополнительный пробел*/
+.gap-20 {
+	width: 5px;
+	height: 20px;
+}
+
+.gap-50 {
+	width: 5px;
+	height: 50px;
+}
+
+/*Уменьшение межбуквенного интервала*/
+.letter-compressed {
+	letter-spacing: -1px;
+}
+
+/*Нижний регистр*/
+.lowercase {
+	text-transform: lowercase;
+	letter-spacing: 2px;
+}
+
+/*Добавил, чтобы убрать пагинацию со слайда с автором*/
+section#author.slide.author::after {
+ display: none;
+}
+
+span, pre.line-numbers {
+ font-size: 16px;
+}
+
+/*Шмуц для раздела*/
+.schmutz-titel {
+	padding: 0;
+}
+
+/*Картинка в шмуце*/
+.schmutz-picture {
+	width: 1024px;
+ height: 640px;
+}
+
+/*Окрашивает строку текста в коде*/
+.color-string {
+	color: #690;
+}
+
+/*Уменьшение шрифта*/
+.minimize-font-075em {
+	font-size: 0.75em;
+}
+
+.minimize-font-085em {
+	font-size: 0.85em;
+}
+
+/*Когда надо уменьшить шрифт ещё больше*/
+.minimize-font-045em {
+	font-size: 0.45em;
+}
+
+/*Блок ответа с боковой планкой*/
+.answer {
+	display: block;
+	padding-left: 25px;
+	border-left: 7px solid;
+	border-left-color: rgba(27, 31, 35, 0.05);
+	color: #979a9e;
+}
+
+/*Выделение текста, чтобы обратить внимание*/
+.attention {
+	color: #F00;
+	font-size: 1em;
+}
+
+/*Выделяет рамкой фрагмент текста*/
+.frame {
+	display: inline-block;
+	border: 1px solid black;
+	font-size: 1em;
+}
+
+/*Малый раздел*/
+.chapter-small {
+ display: flex;
+ justify-content: center;
+ flex-direction: column;
+}
+
+/*Костыль для телеграма, тк не вставлялась иконка*/
+.telegram-link {
+	position: relative;
+}
+
+.telegram-icon {
+	position: absolute;
+	top: -18px;
+	right: 95px;
+	width: 70px;
+	height: 70px;
+}
+
+.telegram-icon.lower {
+	content: url(../i/telegram-lower.svg);
+}
+
+.telegram-icon.upper {
+	content: url(../i/telegram-upper.svg);
+}
+
+/*Отступы для первой строки во втором куске большого кода*/
+.tabbed {
+	padding-left: 77px;
+}
