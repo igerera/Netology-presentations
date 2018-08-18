@@ -2,7 +2,7 @@
 
 /*Светло-серая подсветка имён элементов*/
 /*Основной текст*/
-mark.highliter {
+.slide mark.highliter {
 	background: rgba(27,31,35,0.05);
 	border-radius: 3px;
 	color: #666666;
@@ -90,18 +90,22 @@ span, pre.line-numbers {
  height: 640px;
 }
 
-/*Окрашивает строку в коде*/
-.long-string {
+/*Окрашивает строку текста в коде*/
+.color-string {
 	color: #690;
 }
 
 /*Уменьшение шрифта*/
-.minimize {
+.minimize-font-075em {
 	font-size: 0.75em;
 }
 
+.minimize-font-085em {
+	font-size: 0.85em;
+}
+
 /*Когда надо уменьшить шрифт ещё больше*/
-.minimize-more {
+.minimize-font-045em {
 	font-size: 0.45em;
 }
 
@@ -155,6 +159,7 @@ span, pre.line-numbers {
 	content: url(../i/telegram-upper.svg);
 }
 
+/*Отступы для первой строки во втором куске большого кода*/
 .tabbed {
 	padding-left: 77px;
 }

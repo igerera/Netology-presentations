@@ -66,9 +66,22 @@ h2:not(.shout):before {
 
 
 /* Стили для обложки презентации */
+/*#cover {
+  background: url(../i/logo.svg) no-repeat 10% 10%;
+  background-size: 30%;
+  background-color: #00acf2;
+  position: relative;
+  letter-spacing: normal;
+  color: #00acf2;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  padding: 0 0 0 100px;
+}*/
+
 #cover {
   background: url(../i/logo-new.svg) no-repeat;
-  background-position: 12.5% 26%;
+  background-position: 12.5% 28%;
   background-size: 20%;
   background-color: #00acf2;
   position: relative;
@@ -166,6 +179,7 @@ h2:not(.shout):before {
 .contacts li {
   display: inline-block;
   width: 30%;
+
 }
 
 .contacts li:before {
@@ -223,6 +237,10 @@ dt::after {
   content: "—";
   padding-left: 0.5em;
   padding-right: 0.5em;
+}
+
+dd {
+
 }
 
 /* Четыре блока с подписями в ряд */
@@ -393,10 +411,22 @@ dt::after {
 /* End */
 
 /* Последний слайд */
+/*.last {
+  background: url(../i/logo.svg) no-repeat center 20%;
+  background-size: 35%;
+  background-color: #00acf2;
+  color: #00acf2;
+  text-align: center;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}*/
+
 .last {
   background: url(../i/logo-new.svg) no-repeat;
-  background-position: center 30%;
-  background-size: 35%;
+  background-position: center 35%;
+  background-size: 20%;
   background-color: #00acf2;
   color: #00acf2;
   text-align: center;
@@ -461,7 +491,7 @@ address {
 
 /* End */
 
-/* Стиль для комментариев в тексте */
+/* Стиль для комментарием в тексте */
 .comment {
   color: #979a9e;
 }
